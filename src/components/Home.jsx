@@ -15,7 +15,7 @@ const Home = () => {
       <h2 className="text-2xl text-slate-800 dark:text-slate-200">Software Developer</h2>
 
       <div className="flex flex-col md:flex-row gap-8">
-        <button className="flex items-center gap-2 bg-blue-700 text-slate-800 dark:text-slate-100 font-medium px-5 py-2 rounded-lg cursor-pointer transition hover:scale-105">
+        <button className="flex items-center gap-2 bg-blue-700 text-slate-100 font-medium px-5 py-2 rounded-lg cursor-pointer transition hover:scale-105">
           Resume <FaArrowRightLong />
         </button>
         <button className="px-5 py-2 border-2 border-blue-700 text-slate-800 dark:text-slate-100 font-medium rounded-lg cursor-pointer transition hover:scale-105">
