@@ -1,5 +1,5 @@
 import Photo from "../assets/Ganesh_S.svg";
-import { FaArrowDownLong } from "react-icons/fa6";
+import { FaArrowRightLong } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { TbMail } from "react-icons/tb";
@@ -19,7 +19,7 @@ const Home = () => {
       <div className="flex flex-col md:flex-row gap-8">
         <a href={Resume} target="_blank" rel="noopener noreferrer">
           <button className="flex items-center gap-2 bg-blue-700 text-slate-100 font-medium px-5 py-2 rounded-lg cursor-pointer transition hover:scale-105">
-            Resume <FaArrowDownLong />
+            Resume <FaArrowRightLong />
           </button>
         </a>
         <Link to="contact" smooth="easeInOutCubic" duration={700}>
